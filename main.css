@@ -10,7 +10,7 @@ body {
 }
 
 img {
-    width: 1000px; /* Устанавливаем ширину изображения */
+    width: 70vh; 
     height: auto;
     margin-bottom: 0;
 }
@@ -22,17 +22,17 @@ img {
 }
 
   .container {
-    display: flex; /* Используем flexbox для расположения элементов рядом */
+    display: flex;
     justify-content: space-between;
     flex-direction: column;
     width: 100%;
 }
 
 .form-container {
-    width: 100%; /* Ограничиваем ширину формы */
+    width: 100%;
     display: flex;
-    flex-direction: column; /* Строки формы будут располагаться вертикально */
-    gap: 30px; /* Добавляем отступы между элементами формы */
+    flex-direction: column;
+    gap: 30px;
 }
   span {
     font-family: Norse-Bold;
@@ -56,39 +56,39 @@ legend {
 
 
   input {
-    border: 1px solid #E5E7EB; /* Very light border */
-    padding: 10px; /* Adds padding inside inputs */
-    border-radius: 5px; /* Rounds the edges of the inputs */
-    font-size: 40px; /* Adjusts font size */
-    width: 100%; /* Makes inputs stretch to fit the container */
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px; 
+    font-size: 40px; 
+    width: 100%; 
     box-sizing: border-box;
   }
   
   input:invalid {
-    border-color: red; /* Red border for invalid inputs */
+    border-color: red;
   }
 
   input:focus {
-    border-color: blue; /* Blue border on focus */
-    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); /* Subtle blue glow */
-    outline: none; /* Removes the default focus outline */
+    border-color: blue;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+    outline: none;
   }
 
   button.btn-primary {
     width: 30%;
     margin-top: 20px;
-    background-color: #596D48; /* Button color matching tones in the image */
-    color: white; /* Text color */
-    border: none; /* Removes default border */
-    padding: 10px 20px; /* Adds padding inside the button */
-    border-radius: 20px; /* Rounds the edges of the button */
-    cursor: pointer; /* Changes cursor to pointer on hover */
+    background-color: #596D48; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 20px;
+    cursor: pointer; 
     font-size: 40px;
     font-family: Norse-Bold;
   }
 
   button.btn-primary:hover {
-    background-color: #4A5B3B; /* Slightly darker green on hover */
+    background-color: #4A5B3B;
   }
   
 .login-prompt {
@@ -98,7 +98,7 @@ legend {
 }
 
 .login-prompt a {
-    color: #596D48; /* Цвет ссылки */
+    color: #596D48;
     text-decoration: none;
     font-weight: bold;
 }
