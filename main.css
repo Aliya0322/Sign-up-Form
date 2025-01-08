@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf) format(otf);
+}
+body {
+    margin: 0;
+    font-family: Norse-Bold;
+    display: flex;
+}
+
+img {
+    width: 1000px; /* Устанавливаем ширину изображения */
+    height: auto;
+    margin-bottom: 0;
+}
+
+.text-container{
+    margin-left: 100px;
+    flex-direction: column;
+    display: flex;
+}
+
+  .container {
+    display: flex; /* Используем flexbox для расположения элементов рядом */
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-container {
+    width: 100%; /* Ограничиваем ширину формы */
+    display: flex;
+    flex-direction: column; /* Строки формы будут располагаться вертикально */
+    gap: 30px; /* Добавляем отступы между элементами формы */
+}
+  span {
+    font-family: Norse-Bold;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 200px;
+  }
+
+  label {
+    font-family: Norse-Bold;
+    font-size: 35px;
+}
+legend {
+    font-family:Norse-Bold;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+
+  input {
+    border: 1px solid #E5E7EB; /* Very light border */
+    padding: 10px; /* Adds padding inside inputs */
+    border-radius: 5px; /* Rounds the edges of the inputs */
+    font-size: 40px; /* Adjusts font size */
+    width: 100%; /* Makes inputs stretch to fit the container */
+    box-sizing: border-box;
+  }
+  
+  input:invalid {
+    border-color: red; /* Red border for invalid inputs */
+  }
+
+  input:focus {
+    border-color: blue; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); /* Subtle blue glow */
+    outline: none; /* Removes the default focus outline */
+  }
+
+  button.btn-primary {
+    width: 30%;
+    margin-top: 20px;
+    background-color: #596D48; /* Button color matching tones in the image */
+    color: white; /* Text color */
+    border: none; /* Removes default border */
+    padding: 10px 20px; /* Adds padding inside the button */
+    border-radius: 20px; /* Rounds the edges of the button */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    font-size: 40px;
+    font-family: Norse-Bold;
+  }
+
+  button.btn-primary:hover {
+    background-color: #4A5B3B; /* Slightly darker green on hover */
+  }
+  
+.login-prompt {
+    margin-top: 20px;
+    font-family: Norse-Bold;
+    font-size: 30px;
+}
+
+.login-prompt a {
+    color: #596D48; /* Цвет ссылки */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-prompt a:hover {
+    text-decoration: underline;
+}
