@@ -30,6 +30,7 @@ body {
 
 .right {
   width: 60%;
+  height: 100vh;
   padding-left: 30px;
   display: flex;
   flex-direction: column;
