@@ -29,6 +29,7 @@ body {
 }
 
 .right {
+  position: relative;
   width: 60%;
   height: 100vh;
   padding-left: 30px;
